@@ -336,11 +336,12 @@ section textarea {
 .submit-btn {
    margin: 5px 0px 24px;
   height: 64px;
-  border-radius: 5px;
+  
   background-color:#4E47FF;
   display: block;
   width: 100%;
   padding: 20px 20px;
+  border: none;
   
   font-size: 16px;
 
@@ -354,6 +355,7 @@ section textarea {
   background-color: #3e8e41;
   box-shadow: 2px 1px #c35811;
   transform: translatX(2px);
+  
 }
 
 
