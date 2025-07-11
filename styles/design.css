@@ -38,7 +38,7 @@
 
 .button-effect:active {
   background-color: #3e8e41;
-  box-shadow: 2px 2px #c35811;
+  box-shadow: 2px 1px #c35811;
   transform: translatX(2px);
 }
 
@@ -101,5 +101,69 @@ nav {
 
 .hero-button{
     margin-top: 30px;
+    margin-bottom: 120px;
 }
+
+
+
+/* main section */
+
+.main-section {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* section action part */
+
+.action-section-container {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+   padding: 120px 140px;
+  margin-top: 70px;
+  
+ 
+}
+
+.action-banner {
+  width: 60%;
+  text-align: left;
+  padding: 10px;
+}
+
+.action-title{
+  font-size: 40px;
+  font-weight: bold;
+  color: #252432;
+  margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.action-description{
+  font-size: 18px;
+  color: #252432;
+  font-weight: regular;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.action-button {
+  background-color: #4E47FF;
+  color: white;
+  padding: 10px 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  align-items: center;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.action-section-container img {
+  width: 40%;
+  height: auto;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+
 
