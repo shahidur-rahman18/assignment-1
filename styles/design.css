@@ -337,14 +337,13 @@ section textarea {
 .submit-btn {
    margin: 5px 0px 24px;
   height: 64px;
-  
   background-color:#4E47FF;
   display: block;
   width: 100%;
   padding: 20px 20px;
   border: none;
-  
   font-size: 16px;
+  border-radius: 10px;
 
 }
 
