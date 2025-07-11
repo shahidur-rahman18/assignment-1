@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background: #f5f8ff;
+}
 
 /* fonts  */
 
@@ -179,7 +182,6 @@ nav {
   font-family: "Raleway", sans-serif;
 }
 
-
 .overview-container {
   display: flex;
   justify-content: space-around;
@@ -198,7 +200,7 @@ nav {
 .overview-item-title {
   font-weight: bold;
   font-size: 60px;
-  color: #4E47FF;
+  color: #4e47ff;
   margin-top: 40px;
   font-family: inter;
   text-align: center;
@@ -209,18 +211,20 @@ nav {
   font-family: inter;
   color: #474747;
   text-align: center;
+  margin-top: 15px;
 }
 
-.feedback-banner-title{
+/* feedback section  */
+
+.feedback-banner-title {
   font-weight: bold;
   font-size: 40px;
   color: #252432;
   font-family: "Raleway", sans-serif;
-   text-align: center;
-   margin-top: 100px;
-
+  text-align: center;
+  margin-top: 100px;
 }
-.feedback-card-container{
+.feedback-card-container {
   display: flex;
   text-align: center;
   padding: 50px 80px;
@@ -232,55 +236,161 @@ nav {
   margin-top: 50px;
 }
 
-.feedback-card{
- text-align: left;
+.feedback-card {
+  text-align: left;
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   cursor: pointer;
-  
-
 }
 
 .feedback-card:hover {
   box-shadow: 0px 6px 50px 0px rgba(143, 1, 251, 0.1);
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
-  
 }
-.feedback-title{
+.feedback-title {
   margin-top: 24px;
   font-size: 20px;
-  font-family:"Raleway", sans-serif ;
-
+  font-family: "Raleway", sans-serif;
 }
-.feedback-description{
- margin-top: 8px;
+.feedback-description {
+  margin-top: 8px;
   font-weight: regular;
   color: #757575;
 }
 
-.feedback-user-card{
+.feedback-user-card {
   display: flex;
   align-items: center;
   gap: 20px;
   margin-top: 24px;
-  
 }
-.feedback-user-card img{
+.feedback-user-card img {
   border-radius: 50%;
-  
-
 }
-.user-name{
+.user-name {
   font-size: 20px;
   color: #757575;
 }
 
-
-.data{
+.data {
   margin-top: 3px;
   font-weight: 200;
   font-size: 16px;
+}
 
+
+/* form section */
+
+
+
+
+.form-section {
+  padding: 130px 230px;
+  display: flex;
+  gap: 70px;
+}
+.form-title{
+  font-size: 88px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.form-column {
+  width: 50%;
+}
+
+
+section label{
+  font-size: 18px;
+  font-weight: medium;
+  
+}
+
+section [type="text"],
+section [type="email"] {
+  margin: 5px 0px 24px;
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 20px 20px;
+  border: none;
+  font-size: 16px;
+}
+section textarea {
+  margin: 5px 0px 24px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 30px 20px;
+  border: none;
+   font-size: 18px;
+}
+
+.submit-btn {
+   margin: 5px 0px 24px;
+  height: 64px;
+  border-radius: 5px;
+  background-color:#4E47FF;
+  display: block;
+  width: 100%;
+  padding: 20px 20px;
+  
+  font-size: 16px;
+
+}
+
+.submit-btn:hover {
+  background-color: #3e8e41;
+}
+
+.submit-btn:active {
+  background-color: #3e8e41;
+  box-shadow: 2px 1px #c35811;
+  transform: translatX(2px);
+}
+
+
+
+/* footer section  */
+
+footer{
+  background-color: #ffffff;
+}
+.footer-section {
+  text-align: center;
+  padding: 131px 157px;
+  border-radius: 10px;
+  margin-top: 130px;
+
+}
+
+.about-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+.about-item {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.item-title {
+  font-weight: regular;
+  font-size: 20px;
+  color: #757575;
+  margin-top: 20px;
+}
+.item-description {
+  font-weight: bold;
+  font-size: 25px;
+  color: #474747;
+  text-align: center;
 }
