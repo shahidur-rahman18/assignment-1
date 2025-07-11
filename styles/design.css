@@ -289,10 +289,10 @@ nav {
 .form-section {
   padding: 130px 230px;
   display: flex;
-  gap: 70px;
+  gap: 75px;
 }
 .form-title{
-  font-size: 88px;
+  font-size: 70px;
   font-weight: bold;
   text-align: left;
 }
@@ -369,28 +369,40 @@ footer{
   margin-top: 130px;
 
 }
+.footer-title{
+  font-size: 100px;
+  font-weight: bolder;
+  
+  color:#4E47FF ;
 
-.about-items {
+}
+.footer-description{
+  text-align: center;
+  font-size: 18px;
+  color: #8987A1;
+  margin: 30px;
+
+}
+
+.footer-items {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   text-align: center;
+  justify-content: center;
   margin-top: 30px;
 }
-.about-item {
+.footer-item {
   text-align: center;
   padding: 0 20px;
 }
 
+.footer-item a{
+   text-decoration: none;
+
+}
 .item-title {
   font-weight: regular;
   font-size: 20px;
   color: #757575;
   margin-top: 20px;
-}
-.item-description {
-  font-weight: bold;
-  font-size: 25px;
-  color: #474747;
-  text-align: center;
 }
