@@ -58,8 +58,9 @@ nav {
 }
 
 .nav-title {
-  font-weight: black;
-  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 40px;
   color: #4e47ff;
 }
 
