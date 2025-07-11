@@ -344,6 +344,7 @@ section textarea {
   border: none;
   font-size: 16px;
   border-radius: 10px;
+  cursor: pointer;
 
 }
 
